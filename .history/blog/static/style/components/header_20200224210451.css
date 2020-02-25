@@ -1,0 +1,17 @@
+.header{
+    background-color: #fff;
+    padding:.4rem;
+    overflow:  hidden;
+    height:2.8rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-logo{
+    color:#c073c0;
+    font-size:1.4rem;
+    text-align: left;
+}
+
+.header-txt{
+
+}

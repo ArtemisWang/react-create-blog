@@ -33,7 +33,7 @@ const Home = () => {
               <div className="list-icon">
                 <span><Icon type="calendar"/>2020-02-23  </span>
                 <span><Icon type="folder"/>视频教程  </span>
-                <span><Icon type="fire"/>2333人  </span>
+                <span><Icon type="fire"/>2223人  </span>
               </div>
               <div className="list-context">{item.context}</div>
             </List.Item>
