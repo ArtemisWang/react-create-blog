@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react';
-import {Row, Col, Icon, Breadcrumb, Affix} from 'antd'
+import {Row, Col, Icon, Breadcrumb} from 'antd'
 import Header from '../components/Header'
 import Advert from '../components/Advert'
 import Author from '../components/Author'
@@ -36,15 +36,6 @@ const Detailed = () => {
   '> aaaaaaaaa\n' +
   '>> bbbbbbbbb\n' +
   '>>> cccccccccc\n\n'+
-  '# p06:Vue3.0基础知识讲解\n' +
-  '> aaaaaaaaa\n' +
-  '>> bbbbbbbbb\n' +
-  '>>> cccccccccc\n\n'+
-  '# p07:Vue3.0基础知识讲解\n' +
-  '> aaaaaaaaa\n' +
-  '>> bbbbbbbbb\n' +
-  '>>> cccccccccc\n\n'+
-  '``` var a=11; ```'+
   '# p06:Vue3.0基础知识讲解\n' +
   '> aaaaaaaaa\n' +
   '>> bbbbbbbbb\n' +
@@ -90,17 +81,15 @@ const Detailed = () => {
         <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4} >
           <Author/>
           <Advert/>
-          <Affix offsetTop={5}>
-            <div className="detailed-nav comm-box">
-              <div className="nav-title">文章目录</div>
-              <MarkNav
-                className="article-menu"
-                source={markdown}
-                headingTopOffset={0}
-                ordered={false}
-              />
-            </div>
-          </Affix>
+          <div className="detailed-nav comm-box">
+            <div className="nav-title">文章目录</div>
+            <MarkNav
+              className="article-menu"
+              source={markdown}
+              headingTopOffset={0}
+              ordered={true}
+            />
+          </div>
         </Col>
       </Row>
       <Footer/>

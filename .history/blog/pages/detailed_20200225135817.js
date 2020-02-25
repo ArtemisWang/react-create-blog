@@ -44,15 +44,6 @@ const Detailed = () => {
   '> aaaaaaaaa\n' +
   '>> bbbbbbbbb\n' +
   '>>> cccccccccc\n\n'+
-  '``` var a=11; ```'+
-  '# p06:Vue3.0基础知识讲解\n' +
-  '> aaaaaaaaa\n' +
-  '>> bbbbbbbbb\n' +
-  '>>> cccccccccc\n\n'+
-  '# p07:Vue3.0基础知识讲解\n' +
-  '> aaaaaaaaa\n' +
-  '>> bbbbbbbbb\n' +
-  '>>> cccccccccc\n\n'+
   '``` var a=11; ```'
 
   return (
