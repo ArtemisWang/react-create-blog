@@ -23,13 +23,13 @@ const Header=()=>{
                         <Menu.Item key="video">
                             <div>
                                 <Icon type="youtube" />
-                                <a href='/video'>视频</a>
+                                <a href='/life'>首页</a>
                             </div>
                         </Menu.Item>
                         <Menu.Item key="life">
                             <div>
-                                <Icon type="smile" />
-                                <a href='/life'>生活</a>
+                                <Icon type="smeil" />
+                                <a href='/life'>首页</a>
                             </div>
                         </Menu.Item>
                     </Menu>

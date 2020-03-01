@@ -16,8 +16,8 @@ const Header=()=>{
                     <Menu mode="horizontal">
                         <Menu.Item key="home">
                             <div>
-                                <Icon type="home" />
-                                <a href='/index'>首页</a>
+                                
+                                <a href='/index'><Icon type="home" />首页</a>
                             </div>
                         </Menu.Item>
                         <Menu.Item key="video">

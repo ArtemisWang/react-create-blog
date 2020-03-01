@@ -16,7 +16,7 @@ const Header=()=>{
                     <Menu mode="horizontal">
                         <Menu.Item key="home">
                             <div>
-                                <Icon type="home" />
+                            <Icon type="home" />
                                 <a href='/index'>首页</a>
                             </div>
                         </Menu.Item>

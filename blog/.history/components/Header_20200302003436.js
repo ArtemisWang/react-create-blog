@@ -15,22 +15,16 @@ const Header=()=>{
                 <Col xs={0} sm={0} md={14} lg={8} xl={6}>
                     <Menu mode="horizontal">
                         <Menu.Item key="home">
-                            <div>
-                                <Icon type="home" />
-                                <a href='/index'>首页</a>
-                            </div>
+                            <Icon type="home" />
+                            首页<a href="/">首页</a>
                         </Menu.Item>
                         <Menu.Item key="video">
-                            <div>
-                                <Icon type="youtube" />
-                                <a href='/video'>视频</a>
-                            </div>
+                            <Icon type="youtube"/>
+                            视频
                         </Menu.Item>
                         <Menu.Item key="life">
-                            <div>
-                                <Icon type="smile" />
-                                <a href='/life'>生活</a>
-                            </div>
+                            <Icon type="smile"/>
+                            生活
                         </Menu.Item>
                     </Menu>
                 </Col>
