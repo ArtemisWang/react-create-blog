@@ -30,7 +30,7 @@ const Home = () => {
             dataSource={mylist}
             renderItem={item=>(
             <List.Item>
-              <div className="list-title"><a href='/detailed'>{item.title}</a></div>
+              <div className="list-title"><a href='/detailed'>{item.title}</a>{item.title}</div>
               <div className="list-icon">
                 <span><Icon type="calendar"/>2020-02-23  </span>
                 <span><Icon type="folder"/>视频教程  </span>
