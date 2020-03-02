@@ -67,9 +67,10 @@ const Detailed = () => {
           <div>
             <div className="bread-div">
               <Breadcrumb>
+              
                 <Breadcrumb.Item><Link href="/"><a>首页</a></Link></Breadcrumb.Item>
-                <Breadcrumb.Item><Link href="/video"><a>视频</a></Link></Breadcrumb.Item>
-                <Breadcrumb.Item>视频名</Breadcrumb.Item>
+                <Breadcrumb.Item><a href="/video">视频列表</a></Breadcrumb.Item>
+                <Breadcrumb.Item>文章名</Breadcrumb.Item>
               </Breadcrumb>
             </div>
             <div className="detailed-title">
