@@ -17,19 +17,19 @@ const Header=()=>{
                         <Menu.Item key="home">
                             <div>
                                 <Icon type="home" />
-                                <Link href='/index'><a>首页</a></Link>
+                                <Link href='/index'>首页</Link>
                             </div>
                         </Menu.Item>
                         <Menu.Item key="video">
                             <div>
                                 <Icon type="youtube" />
-                                <Link href='/video'><a>视频</a></Link>
+                                <a href='/video'>视频</a>
                             </div>
                         </Menu.Item>
                         <Menu.Item key="life">
                             <div>
                                 <Icon type="smile" />
-                                <Link href='/life'><a>生活</a></Link>
+                                <a href='/life'>生活</a>
                             </div>
                         </Menu.Item>
                     </Menu>
